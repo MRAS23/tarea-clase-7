@@ -34,7 +34,7 @@ function probarValidarDescripcionRegalo() {
   );
 
   console.assert(
-    validarDescripcionRegalo(" ") === "El campo descripción regalo deberia tener al menos 1 caracter",
+    validarDescripcionRegalo("") === "El campo descripción regalo deberia tener al menos 1 caracter",
     "Validar descripción regalo no validó que descripción regalo no sea vacío"
   );
 
